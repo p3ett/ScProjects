@@ -1,0 +1,14 @@
+submit pwd
+submit sleep 5
+submit ls -l
+submit ls
+submit ifconfig
+submit sleep 12
+suspend 2
+status 2
+show-finished
+show-active
+resume 2
+show-pools
+status-all
+exit
