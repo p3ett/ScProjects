@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/Auctions" allowCasualMultipartParsing="true">
+
+    <Resource name="connpool" auth="Container" type="javax.sql.DataSource"
+            maxActive="100" maxIdle="30" maxWait="10000"
+            username="root" password="123456" driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/auctions"/>
+    
+</Context>
